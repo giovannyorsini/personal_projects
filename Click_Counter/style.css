@@ -1,0 +1,32 @@
+body {
+            background: #fafad29d;
+            font: normal 30pt times;
+            color: #504d32;
+            text-align: center;            
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;   /* vertically center */
+            align-items: center;       /* horizontally center */
+            background: #fae99d;
+            border-radius:30px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+            width: 300px;
+            height: 200px;
+            margin: auto;
+        }
+        input[type="button"] {
+            padding: 10px 20px;      /* Increases size */
+            font: bold 13pt times;         /* Makes text bigger */
+            margin: 5px;             /* Space between buttons */
+            border-radius: 30px;      /* Rounded corners */
+            cursor: pointer;
+            background-color: #fafad29d;
+            color: #504d32;
+            border-color: #504d32;
+            text-transform: uppercase;
+        }
+        footer {
+            padding: 20px;
+        }
