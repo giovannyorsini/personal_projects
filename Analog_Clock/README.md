@@ -22,7 +22,7 @@ The clock updates in real time using JavaScript, with styled hands for **hours, 
 
 ---
 
-## 🖼️ Screenshot
+## 📸 Screenshot
 
 ![Analog Clock Screenshot](screenshot.jpg)
 
@@ -41,3 +41,4 @@ The clock updates in real time using JavaScript, with styled hands for **hours, 
 - HTML
 - CSS
 - JavaScript
+
