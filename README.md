@@ -57,6 +57,27 @@ A more structured project that allows you to:
 
 ---
 
+### 🕒 Analog Clock
+A simple and fun **Analog Clock** project built with **HTML, CSS, and JavaScript**.  
+The clock updates in real time using JavaScript, with styled hands for **hours, minutes, and seconds**.
+
+**Tech stack:**  
+- HTML  
+- CSS  
+- JavaScript (basic DOM manipulation)
+
+**Files included:**  
+- `index.html`  
+- `style.css`  
+- `script.js`
+
+**Screenshot:**  
+<a href="Analog_Clock/script.js">
+    <img src="Analog_Clock/screenshot.jpg" alt="Analog Clock Screenshot">
+</a>
+
+---
+
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
@@ -64,4 +85,5 @@ A more structured project that allows you to:
 
 ## 📫 Contact
 - **LinkedIn:** [My LinkedIn profile](https://www.linkedin.com/in/giovanny-orsini)
+
 - **Email:** gikaorsini@gmail.com
