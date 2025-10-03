@@ -22,7 +22,7 @@ This project focuses on **CSS variables** and how they can be manipulated using 
 ---
 
 ## 🖼️ Screenshot
-![Image Styler Screenshot](/image_styler_screenshot.jpg)
+![Image Styler Screenshot](./image_styler_screenshot.jpg)
 
 ---
 
