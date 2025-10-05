@@ -1,89 +1,42 @@
-# Personal Projects
+# 🗂️ Personal Projects
 
-This repository contains some of my first personal projects as I continue learning and practicing **web development**.  
-Each project is built with **HTML, CSS, and JavaScript**, focusing on improving my understanding of the fundamentals while creating fun and interactive applications.
+Welcome to my **Personal Projects** repository!  
+This repo contains a collection of my small but meaningful projects built while learning and practicing **HTML**, **CSS**, and **JavaScript**.  
 
----
-
-## 📂 Projects
-
-### 1. 🖱️ Click Counter
-A simple project that:
-- Increases the counter each time you press the **"Click"** button  
-- Resets the counter when pressing the **"Reset"** button  
-
-**Tech stack:**  
-- HTML  
-- CSS  
-- JavaScript (basic DOM manipulation)
-
-**Files included:**  
-- `index.html`  
-- `style.css`  
-- `script.js`  
-
-**Screenshot:**  
-<a href="Click_Counter/index.html">
-    <img src="Click_Counter/screen shot click-counter.jpg" alt="Click Counter Screenshot">
-</a>
+Each project lives in its own folder with its source code and a dedicated README file explaining how it works.
 
 ---
 
-### 2. 🥁 Online Drum Kit
-A more structured project that allows you to:
-- Play drum sounds using the keyboard keys (**A, S, D, F, G, H, J, K, L**)  
-- See a quick **animation effect** when a key is pressed (button grows slightly and gets a yellow border)  
-- Hear realistic drum sounds loaded from a local sounds folder  
+## 💻 Projects Overview
 
-**Tech stack:**  
-- HTML  
-- CSS  
-- JavaScript (DOM manipulation + event listeners)  
-- Audio files (drum sounds)
-
-**Files included:**  
-- `index.html`  
-- `style.css`  
-- `script.js`  
-- `/sounds` folder (drum sounds)
-
-**Screenshots:**  
-- Main view: <a href="Online_Drum_Kit/index.html">
-                <img src="Online_Drum_Kit/Screenshots/screenshot_1.jpg" alt="Main Online Drum Kit View">
-             </a>  
-- Pressed key effect: <a href="Online_Drum_Kit/index.html">
-                        <img src="Online_Drum_Kit/Screenshots/screenshot_2.jpg" alt="Pressed Key Effect ODK">
-                      </a>
+| # | Project | Description | Technologies |
+|---|----------|--------------|---------------|
+| 1 | [🖱️ Click Counter](./click_counter) | Counts clicks and allows reset with a button. | HTML, CSS, JavaScript |
+| 2 | [🥁 Online Drum Kit](./online_drum_kit) | Play drum sounds using keyboard keys (A–L). | HTML, CSS, JavaScript |
+| 3 | [🕒 Analog Clock](./analog_clock) | Real-time analog clock using CSS + JS. | HTML, CSS, JavaScript |
+| 4 | [🎨 Image Styler](./image_styler) | Adjust border size, blur level, and color dynamically. | HTML, CSS Variables, JavaScript |
 
 ---
 
-### 🕒 Analog Clock
-A simple and fun **Analog Clock** project built with **HTML, CSS, and JavaScript**.  
-The clock updates in real time using JavaScript, with styled hands for **hours, minutes, and seconds**.
-
-**Tech stack:**  
-- HTML  
-- CSS  
-- JavaScript (basic DOM manipulation)
-
-**Files included:**  
-- `index.html`  
-- `style.css`  
-- `script.js`
-
-**Screenshot:**  
-<a href="Analog_Clock/script.js">
-    <img src="Analog_Clock/screenshot.jpg" alt="Analog Clock Screenshot">
-</a>
+## 🚀 How to Use
+1. Click on a project link above to explore it.  
+2. Open the `index.html` file in your browser.  
+3. Read each project’s README for details and screenshots.
 
 ---
 
-## 🚀 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/giovannyorsini/personal_projects.git
+## 🛠️ Tech Stack
+- **Languages:** HTML, CSS, JavaScript  
+- **Focus Areas:** DOM Manipulation, CSS Variables, Event Handling, Real-time UI updates  
 
-## 📫 Contact
-- **LinkedIn:** [My LinkedIn profile](https://www.linkedin.com/in/giovanny-orsini)
+---
 
-- **Email:** gikaorsini@gmail.com
+## 📚 About These Projects
+These projects are part of my continuous learning journey in front-end development.  
+I use them to experiment with new ideas, practice JavaScript logic, and strengthen my problem-solving skills.  
+
+---
+
+## 👋 About Me
+I'm **Giovanny Orsini**, a **Brazilian Computer Science student** passionate about front-end development, AI, Software development and technology in general.  
+Currently, I'm working on building a solid foundation in **web development** to prepare for future **internship opportunities in the USA, Canada or Brazil**.
