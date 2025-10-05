@@ -11,10 +11,10 @@ Each project lives in its own folder with its source code and a dedicated README
 
 | # | Project | Description | Technologies |
 |---|----------|--------------|---------------|
-| 1 | [🖱️ Click Counter](./click_counter) | Counts clicks and allows reset with a button. | HTML, CSS, JavaScript |
-| 2 | [🥁 Online Drum Kit](./online_drum_kit) | Play drum sounds using keyboard keys (A–L). | HTML, CSS, JavaScript |
-| 3 | [🕒 Analog Clock](./analog_clock) | Real-time analog clock using CSS + JS. | HTML, CSS, JavaScript |
-| 4 | [🎨 Image Styler](./image_styler) | Adjust border size, blur level, and color dynamically. | HTML, CSS Variables, JavaScript |
+| 1 | [🖱️ Click Counter](./Click_counter) | Counts clicks and allows reset with a button. | HTML, CSS, JavaScript |
+| 2 | [🥁 Online Drum Kit](./Online_Drum_Kit) | Play drum sounds using keyboard keys (A–L). | HTML, CSS, JavaScript |
+| 3 | [🕒 Analog Clock](./Analog_Clock) | Real-time analog clock using CSS + JS. | HTML, CSS, JavaScript |
+| 4 | [🎨 Image Styler](./Image_Styler) | Adjust border size, blur level, and color dynamically. | HTML, CSS Variables, JavaScript |
 
 ---
 
