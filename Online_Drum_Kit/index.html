@@ -10,9 +10,10 @@
 <body>
     <div class="container">
         <div class="keys">
+            <!-- adding the keyboard keys -->
             <div data-key="65" class="key">
                 <kbd>A</kbd>
-                <span class="sound">clap</span>
+                <span class="sound">clap</span> <!-- what sound will be played by this key -->
             </div>
             <div data-key="83" class="key">
                 <kbd>S</kbd>
@@ -51,6 +52,7 @@
             <p><em>&copy;Giovanny_Orsini</em></p>
         </footer>
     </div>
+    <!-- adding the drum sounds and the keyboardEvent code respectively -->
     <audio data-key="65" src="sounds/clap.wav"></audio>
     <audio data-key="83" src="sounds/hihat.wav"></audio>
     <audio data-key="68" src="sounds/kick.wav"></audio>
@@ -60,6 +62,7 @@
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
+    
     <script src="script.js"></script>
 </body>
 </html>
