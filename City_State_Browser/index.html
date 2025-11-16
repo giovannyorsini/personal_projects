@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>City & State Browser</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="search-form">
+      <input type="text" class="search" placeholder="City or State" />
+      <ul class="suggestions">
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      </ul>
+    </form>
+
+    <script>
+      // URL containing the list of US cities (JSON file)
+      const endpoint =
+        "https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json";
+
+      // Empty array to store the cities once fetched
+      const cities = [];
+
+      // Fetch the data and push it into the 'cities' array
+      fetch(endpoint)
+        .then((blob) => blob.json()) // Convert response to JSON
+        .then((data) => cities.push(...data)); // Spread into the array
+
+      /*
+        Filter function:
+        Returns cities/states that contain the typed text (case-insensitive)
+      */
+      function findMatches(wordToMatch, cities) {
+        return cities.filter((place) => {
+          const regex = new RegExp(wordToMatch, "gi");
+          return place.city.match(regex) || place.state.match(regex);
+        });
+      }
+
+      /*
+        Utility function:
+        Format population numbers with commas (example: 1234567 → 1,234,567)
+      */
+      function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      // Main function to display results under the input as the user types
+      function displayMatches() {
+        // Get matching results based on input value
+        const matchArray = findMatches(this.value, cities);
+
+        // Create an HTML string of <li> items
+        const html = matchArray
+          .map((place) => {
+            const regex = new RegExp(this.value, "gi");
+
+            // Highlight matching text inside city/state names
+            const cityName = place.city.replace(
+              regex,
+              `<span class="hl">${this.value}</span>`
+            );
+            const stateName = place.state.replace(
+              regex,
+              `<span class="hl">${this.value}</span>`
+            );
+
+            // Build the <li> structure for each result
+            return `
+            <li>
+              <span class="name">${cityName}, ${stateName}</span>
+              <span>${numberWithCommas(place.population)}</span>
+            </li>
+          `;
+          })
+          .join(""); // Join the array into a single string
+
+        // Insert the results into the suggestions container
+        suggestions.innerHTML = html;
+      }
+
+      // Select the input and the suggestion list
+      const searchInput = document.querySelector(".search");
+      const suggestions = document.querySelector(".suggestions");
+
+      // Listen for user input and update results live
+      searchInput.addEventListener("change", displayMatches);
+      searchInput.addEventListener("keyup", displayMatches);
+    </script>
+  </body>
+</html>
