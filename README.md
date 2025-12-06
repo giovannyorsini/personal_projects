@@ -15,7 +15,7 @@ Each project lives in its own folder with its source code and a dedicated README
 | 2 | [Online Drum Kit](./Online_Drum_Kit) | Play drum sounds using keyboard keys (A–L). | HTML, CSS Animations, JavaScript Event Listeners |
 | 3 | [Analog Clock](./Analog_Clock) | Real-time analog clock using CSS + JS. | HTML, CSS, JavaScript |
 | 4 | [Image Styler](./Image_Styler) | Adjust border size, blur level, and color dynamically. | HTML, CSS Variables, JavaScript |
-| 5 | [CSS Flex Panels](./CSS_Flex_Panels) | - | HTML, CSS Flex Box, JavaScript Event Listeners |
+| 5 | [CSS Flex Panels](./CSS_Flex_Panels) | A visually engaging project demonstrating CSS Flexbox and smooth animations. | HTML, CSS Flexbox, JavaScript |
 | 6 | [City State Browser](./City_State_Browser) | - | HTML, CSS, JavaScript DOM manipulation |
 
 ---
